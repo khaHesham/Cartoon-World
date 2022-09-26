@@ -95,3 +95,7 @@ discriminator has to have fully connected layers with a classiﬁer at the end.<
  <ul> When training begins, the generator produces fake data, and the discriminator
 quickly learns to tell that it's fake:</ul>
  
+ 
+ 
+ ### Examples : 
+ 
