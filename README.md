@@ -29,6 +29,7 @@ to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 ### METHODOLOGY :
  <ul><li> INTRODUCTION TO GENERATIVE ADVERSARIAL NETWORKS (GANs) </li></ul>
+ <ul><ul>
  <li>Generative adversarial networks (GANs) are an exciting recent innovation in
 machine learning. GANs are generative models: they create new data instances that
 resemble your training data. For example, GANs can create images that look like
@@ -57,4 +58,5 @@ problem domains, most notably in image-to-image translation tasks such as
 translating photos of summer to winter or day to night, and in generating
 photorealistic photos of objects, scenes, and people that even humans cannot tell
 are fake.</li>
+ </ul></ul>
  
