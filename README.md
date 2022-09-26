@@ -5,5 +5,5 @@
 <ul>
 <li> FLOWCHART OF WHITE-BOX-CARTOONIZATION MODEL :</li>
 <ul>
-<li>![flowchart](https://user-images.githubusercontent.com/75990647/192298806-4a2f43cc-f75b-43f3-9dd6-239ca8001937.png)
- </li>
+![flowchart](https://user-images.githubusercontent.com/75990647/192298806-4a2f43cc-f75b-43f3-9dd6-239ca8001937.png)
+ 
