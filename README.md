@@ -122,6 +122,7 @@ quickly learns to tell that it's fake:</ul>
 width="450px"/>
 <img src=https://user-images.githubusercontent.com/75990647/192363186-6a484e04-ecff-4b34-a206-66ce98086052.jpg width="450px"/>
  
-<img src="images/person1.jpg" width="1000px"/>
-<img src="images/person2.jpg" width="1000px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192364296-b06f61ca-723b-4130-ad33-964e235969e2.jpg width="450px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192364356-e3e695a7-3adb-48d7-bb1e-a14e3e0b58e5.jpg
+ width="450px"/>
  
