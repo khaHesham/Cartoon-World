@@ -83,13 +83,10 @@ Artiﬁcial Neural Network (ANN), a Convolutional Neural Network (CNN), a
 Recurrent Neural Network (RNN), or a Long Short Term Memory (LSTM). The
 discriminator has to have fully connected layers with a classiﬁer at the end.</li>
   
-<li>A generative adversarial network (GAN) has two parts:<li>
+<li> A generative adversarial network (GAN) has two parts:<li>
   <ul>
-   <li>The generator learns to generate plausible data. The generated instances
-become negative training examples for the discriminator.</li>
-   <li>The discriminator learns to distinguish the generator's fake data from real
-data. The discriminator penalizes the generator for producing implausible
-results.</li>
+   <li>The generator learns to generate plausible data. The generated instances become negative training examples for the discriminator.</li>
+   <li>The discriminator learns to distinguish the generator's fake data from real data. The discriminator penalizes the generator for producing implausible results </li>
   </ul>
   
   
