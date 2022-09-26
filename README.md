@@ -99,8 +99,8 @@ quickly learns to tell that it's fake:</ul>
  
  ### Examples : 
  
-<img src=https://user-images.githubusercontent.com/75990647/192308302-3f836f7b-4d7b-4419-b5c0-8de27f1e4dc0.jpg width="400px"/>
-<img src=https://user-images.githubusercontent.com/75990647/192308594-ffe78b53-8b29-4003-bcf6-b6dc4fb71512.jpg width="400px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192308302-3f836f7b-4d7b-4419-b5c0-8de27f1e4dc0.jpg width="500px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192308594-ffe78b53-8b29-4003-bcf6-b6dc4fb71512.jpg width="500px"/>
 
 ### Food
 <img src="images/food.jpg" width="1000px"/>
