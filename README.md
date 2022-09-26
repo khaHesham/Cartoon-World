@@ -89,6 +89,9 @@ discriminator has to have fully connected layers with a classiﬁer at the end.<
    <ul><li>The discriminator learns to distinguish the generator's fake data from real data. The discriminator penalizes the generator for producing implausible results </li>
   </ul>
   
-  
+
  </ul></ul>
+ 
+ <ul> When training begins, the generator produces fake data, and the discriminator
+quickly learns to tell that it's fake:</ul>
  
