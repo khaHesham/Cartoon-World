@@ -28,3 +28,5 @@ to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 
 ### METHODOLOGY :
+ <ul> INTRODUCTION TO GENERATIVE ADVERSARIAL NETWORKS (GANs) </ul>
+ 
