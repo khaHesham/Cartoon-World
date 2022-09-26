@@ -27,3 +27,4 @@ Spectral normalization is placed after every convolution layer (except the last 
 to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 
+### METHODOLOGY :
