@@ -112,9 +112,9 @@ quickly learns to tell that it's fake:</ul>
 <img src=https://user-images.githubusercontent.com/75990647/192309810-b78c79a9-8eb7-4669-beda-dccac873f460.jpg width="450px"/>
 <img src=https://user-images.githubusercontent.com/75990647/192309909-b46b17d8-743f-4ab2-8ef2-365641c21695.jpg width="450px"/>
  
-<img src=
+<img src=https://user-images.githubusercontent.com/75990647/192361542-10893efc-cbf6-42db-92ee-fd350b864ced.jpg width="1000px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192361692-6d54bfdc-90c7-4593-827b-001ddae13d8d.jpg
  width="1000px"/>
-<img src="images/person2.jpg" width="1000px"/>
  
 <img src="images/person1.jpg" width="1000px"/>
 <img src="images/person2.jpg" width="1000px"/>
