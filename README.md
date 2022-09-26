@@ -60,3 +60,18 @@ photorealistic photos of objects, scenes, and people that even humans cannot tel
 are fake.</li>
  </ul></ul>
  
+ <ul><li> DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS (DCGAN) :</li></ul>
+ 
+ <ul><ul>
+ <li>The deep convolutional generative adversarial network, or DCGAN for short,
+is an extension of the GAN architecture for using deep convolutional neural
+networks for both the generator and discriminator models and conﬁgurations for
+the models and training that result in the stable training of a generator model.</li>
+ 
+ <li>The DCGAN is important because it suggested the constraints on the model
+required to e ectively develop high-quality generator models in practice. This
+architecture, in turn, provided the basis for the rapid development of a large number
+of GAN extensions and applications.</li>
+ 
+ </ul></ul>
+ 
