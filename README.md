@@ -10,7 +10,7 @@
 
 ### ARCHITECTURE OF WBC MODEL:
 
-<img align= center height=450px src=https://user-images.githubusercontent.com/75990647/192300499-dfbe29b1-ea56-43b2-ab14-30564071f688.png>
+<img align= center height=350px src=https://user-images.githubusercontent.com/75990647/192300499-dfbe29b1-ea56-43b2-ab14-30564071f688.png>
 
 <li>the architecture of the generator network and discriminator
 network in the above ﬁgure. The generator network is a fully convolutional
