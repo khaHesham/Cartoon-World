@@ -102,13 +102,26 @@ quickly learns to tell that it's fake:</ul>
 <img src=https://user-images.githubusercontent.com/75990647/192308302-3f836f7b-4d7b-4419-b5c0-8de27f1e4dc0.jpg width="450px"/>
 <img src=https://user-images.githubusercontent.com/75990647/192308594-ffe78b53-8b29-4003-bcf6-b6dc4fb71512.jpg width="450px"/>
 
-### Food
-<img src="images/food.jpg" width="1000px"/>
 
-### Indoor Scenes
-<img src="images/home.jpg" width="1000px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192309412-c6726bd0-5991-453e-8129-d6e967bbf968.jpg width="450px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192309485-17a023b5-cdbd-496a-b0c8-6c824c89fd05.jpg width="1000px"/>
 
-### People
+<img src=https://user-images.githubusercontent.com/75990647/192309598-cf86dc2d-631c-43c3-b666-16f00b246026.jpg width="1000px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192309724-9ab3f00c-a3c0-4eee-8c20-1241dcd68a34.jpg width="1000px"/>
+ 
+<img src=https://user-images.githubusercontent.com/75990647/192309810-b78c79a9-8eb7-4669-beda-dccac873f460.jpg width="1000px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192309909-b46b17d8-743f-4ab2-8ef2-365641c21695.jpg width="1000px"/>
+ 
+<img src=
+ width="1000px"/>
+<img src="images/person2.jpg" width="1000px"/>
+ 
+<img src="images/person1.jpg" width="1000px"/>
+<img src="images/person2.jpg" width="1000px"/>
+ 
+<img src="images/person1.jpg" width="1000px"/>
+<img src="images/person2.jpg" width="1000px"/>
+ 
 <img src="images/person1.jpg" width="1000px"/>
 <img src="images/person2.jpg" width="1000px"/>
  
