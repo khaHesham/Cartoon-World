@@ -120,7 +120,7 @@ quickly learns to tell that it's fake:</ul>
  
 <img src=https://user-images.githubusercontent.com/75990647/192363134-b4ee4356-5e3a-4fd1-871f-3bddd364df03.jpg
 width="450px"/>
-<img src=https://user-images.githubusercontent.com/75990647/192363186-6a484e04-ecff-4b34-a206-66ce98086052.jpg width="1000px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192363186-6a484e04-ecff-4b34-a206-66ce98086052.jpg width="450px"/>
  
 <img src="images/person1.jpg" width="1000px"/>
 <img src="images/person2.jpg" width="1000px"/>
