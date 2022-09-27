@@ -94,7 +94,10 @@ discriminator has to have fully connected layers with a classiﬁer at the end.<
  
  <ul><li> When training begins, the generator produces fake data, and the discriminator
 quickly learns to tell that it's fake:<li> </ul>
-
+<ul><img src=https://user-images.githubusercontent.com/75990647/192567303-3786130c-c169-49b8-af6a-77bb0e20138e.png
+ width="800px"></ul>
+ <ul><li>As training progresses, the generator gets closer to producing output that can fool
+the discriminator:<li></ul>
  <ul><img src=https://user-images.githubusercontent.com/75990647/192566125-4b9e9672-3632-4e4e-947e-eb68c0d1585e.png
  width="800px"></ul>
  
