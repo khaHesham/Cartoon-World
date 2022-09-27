@@ -120,7 +120,10 @@ quickly learns to tell that it's fake:</ul>
 <img src=https://user-images.githubusercontent.com/75990647/192365908-663596be-90d3-4e29-9ce5-7a060dd31333.jpg
  width="400px"/>
 
- 
+<img src=https://user-images.githubusercontent.com/75990647/192565009-b43cf5bf-01c5-47f1-8a8b-35730de3a85e.jpg
+  width="400px"/>
+<img src=https://user-images.githubusercontent.com/75990647/192565068-1db03857-29b5-41a3-9ba8-bc14065cf437.jpg
+  width="400px"/>
  
 <img src=https://user-images.githubusercontent.com/75990647/192309810-b78c79a9-8eb7-4669-beda-dccac873f460.jpg width="400px"/>
 <img src=https://user-images.githubusercontent.com/75990647/192309909-b46b17d8-743f-4ab2-8ef2-365641c21695.jpg width="400px"/>
