@@ -103,10 +103,9 @@ the discriminator:</b><li></ul>
   <ul><li><b>Finally, if generator training goes well, the discriminator gets worse at telling the
 di erence between real and fake. It starts to classify fake data as real, and its
 accuracy decreases.</b><li></ul>
-  <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192568846-79cd1b08-b6e2-4178-8a02-8cc3766c4a73.png
-
- width="800px"></ul></ul>
- 
+<ul><ul><img src=https://user-images.githubusercontent.com/75990647/192568846-79cd1b08-b6e2-4178-8a02-8cc3766c4a73.png width="800px"></ul></ul>
+<ul><li><b>Here's a picture of the whole system:</b><li></ul>
+ <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192569381-fefa52be-9a8b-4c91-b4eb-37c8a8fca300.png width="800px"></ul></ul>
  
  ### Examples : 
  
