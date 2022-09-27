@@ -106,6 +106,19 @@ accuracy decreases.</b><li></ul>
 <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192568846-79cd1b08-b6e2-4178-8a02-8cc3766c4a73.png width="800px"></ul></ul>
 <ul><li><b>Here's a picture of the whole system:</b><li></ul>
  <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192569381-fefa52be-9a8b-4c91-b4eb-37c8a8fca300.png width="800px"></ul></ul>
+ <ul><li><b>Both the generator and the discriminator are neural networks. The generator
+output is connected directly to the discriminator input. Through backpropagation,
+the discriminator's classiﬁcation provides a signal that the generator uses to
+update its weights.</b><li></ul>
+ 
+  <ul><li><strong> THE DISCRIMINATOR </strong></li><ul>
+ <ul><ul>
+  <li>The discriminator in a GAN is simply a classiﬁer. It tries to distinguish real
+data from the data created by the generator. It could use any network architecture
+appropriate to the type of data it's classifying.</li>
+  
+  
+  </ul></ul>
  
  ### Examples : 
  
