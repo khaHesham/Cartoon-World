@@ -112,13 +112,13 @@ the discriminator's classiﬁcation provides a signal that the generator uses to
 update its weights.</b><li></ul>
  
   <ul><li><strong> THE DISCRIMINATOR </strong></li><ul>
- <ul><ul>
+ <ul>
   <li>The discriminator in a GAN is simply a classiﬁer. It tries to distinguish real
 data from the data created by the generator. It could use any network architecture
 appropriate to the type of data it's classifying.</li>
   
   
-  </ul></ul>
+  </ul>
  
  ### Examples : 
  
