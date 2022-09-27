@@ -60,7 +60,7 @@ photorealistic photos of objects, scenes, and people that even humans cannot tel
 are fake.</li>
  </ul></ul>
  
- <ul><li> DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS (DCGAN) :</li></ul>
+ <ul><li><strong> DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS (DCGAN) :</strong></li></ul>
  
  <ul><ul>
  <li>The deep convolutional generative adversarial network, or DCGAN for short,
