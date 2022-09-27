@@ -75,7 +75,7 @@ of GAN extensions and applications.</li>
  
  </ul></ul>
  
- <ul><li> ARCHITECTURE OF GAN </li><ul>
+ <ul><li><strong> ARCHITECTURE OF GAN </strong></li><ul>
  <ul><ul>
  <li>The architecture of a GAN has two basic elements: the generator network
 and the discriminator network. Each network can be any neural network, such as an
@@ -100,7 +100,12 @@ quickly learns to tell that it's fake:</b><li> </ul>
 the discriminator:</b><li></ul>
  <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192566125-4b9e9672-3632-4e4e-947e-eb68c0d1585e.png
  width="800px"></ul></ul>
- 
+  <ul><li><b>Finally, if generator training goes well, the discriminator gets worse at telling the
+di erence between real and fake. It starts to classify fake data as real, and its
+accuracy decreases.</b><li></ul>
+  <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192568846-79cd1b08-b6e2-4178-8a02-8cc3766c4a73.png
+
+ width="800px"></ul></ul>
  
  
  ### Examples : 
