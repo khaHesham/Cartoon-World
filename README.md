@@ -190,7 +190,22 @@ gradients.
 6. Use gradients to change only the generator weights.</ul></ul>
   
  # WHITE-BOX-CARTOONIZATION:
-  # ------------------------
+<ul>We propose to separately identify three white-box representations from
+images:
+1. The surface representation
+2. The structure representation
+3. The texture representation
+
+26
+
+
+● The surface representation contains a smooth surface of cartoon images.
+● The structure representation refers to the sparse colour blocks and ﬂattens
+global content in the celluloid style workﬂow.
+● The texture representation reﬂects high-frequency texture, contours, and
+details in cartoon images.
+● A Generative Adversarial Network (GAN) framework is used to learn the
+extracted representations and to cartoonize images.</ul>
   
  ### Examples : 
  
