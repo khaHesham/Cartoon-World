@@ -149,6 +149,23 @@ discriminator loss through the discriminator network.</li>
    
  <ul><li><strong>
    ----------------------- THE GENERATOR -----------------------</strong></li><ul>
+  <ul><li>The generator part of a GAN learns to create fake data by incorporating
+feedback from the discriminator. It learns to make the discriminator classify its
+output as real.
+
+Generator training requires tighter integration between the generator and
+the discriminator than discriminator training requires. The portion of the GAN that
+trains the generator includes:
+● random input
+● generator network, which transforms the random input into a data instance
+● discriminator network, which classiﬁes the generated data
+● discriminator output
+● generator loss, which penalizes the generator for failing to fool the
+discriminator<li></ul>
+  
+  ul><ul><img src=https://user-images.githubusercontent.com/75990647/192746211-344ca2e4-1bc7-4999-a3cf-44fa4a0eef3b.png width="800px"></ul></ul>
+  
+  <ul><li><strong> USING THE DISCRIMINATOR TO TRAIN THE GENERATOR </strong></li></ul>
   
   
  ### Examples : 
