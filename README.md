@@ -196,16 +196,14 @@ images:
 2. The structure representation
 3. The texture representation
 
-26
 
-
-● The surface representation contains a smooth surface of cartoon images.
-● The structure representation refers to the sparse colour blocks and ﬂattens
-global content in the celluloid style workﬂow.
-● The texture representation reﬂects high-frequency texture, contours, and
-details in cartoon images.
-● A Generative Adversarial Network (GAN) framework is used to learn the
-extracted representations and to cartoonize images.</ul>
+<li> The surface representation contains a smooth surface of cartoon images.</li>
+<li> The structure representation refers to the sparse colour blocks and ﬂattens
+global content in the celluloid style workﬂow.</li>
+<li> The texture representation reﬂects high-frequency texture, contours, and
+details in cartoon images.</li>
+<li> A Generative Adversarial Network (GAN) framework is used to learn the
+extracted representations and to cartoonize images.</li></ul>
   
  ### Examples : 
  
