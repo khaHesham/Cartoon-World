@@ -116,7 +116,10 @@ update its weights.</b><li></ul>
   <li>The discriminator in a GAN is simply a classiﬁer. It tries to distinguish real
 data from the data created by the generator. It could use any network architecture
 appropriate to the type of data it's classifying.</li>
-  
+
+<ul><ul><img src=https://user-images.githubusercontent.com/75990647/192743996-a5e9e788-4ae7-4752-b995-6e18faf85077.png width="800px"></ul></ul>
+
+### DISCRIMINATOR TRAINING DATA
   
   </ul>
  
