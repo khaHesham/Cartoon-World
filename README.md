@@ -119,7 +119,18 @@ appropriate to the type of data it's classifying.</li>
 
 <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192743996-a5e9e788-4ae7-4752-b995-6e18faf85077.png width="800px"></ul></ul>
 
-### DISCRIMINATOR TRAINING DATA
+<li><strong> DISCRIMINATOR TRAINING DATA : </strong></li>
+  The discriminator's training data comes from two sources:
+  <li>Real data instances, such as real pictures of people. The discriminator uses
+these instances as positive examples during training.</li>
+  <li>Fake data instances created by the generator. The discriminator uses these
+instances as negative examples during training.</li>
+  
+  In Figure 1, the two "Sample" boxes represent these two data sources
+feeding into the discriminator. During discriminator training, the generator does not
+train. Its weights remain constant while it produces examples for the discriminator
+to train on.
+  
   
   </ul>
  
