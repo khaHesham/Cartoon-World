@@ -27,7 +27,7 @@ Spectral normalization is placed after every convolution layer (except the last 
 to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 
-###----------------------- METHODOLOGY ----------------------- :
+### ----------------------- METHODOLOGY ----------------------- :
  <ul><li> INTRODUCTION TO GENERATIVE ADVERSARIAL NETWORKS (GANs) </li></ul>
  <ul><ul>
  <li>Generative adversarial networks (GANs) are an exciting recent innovation in
