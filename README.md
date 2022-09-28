@@ -205,6 +205,20 @@ details in cartoon images.</li>
 <li> A Generative Adversarial Network (GAN) framework is used to learn the
 extracted representations and to cartoonize images.</li></ul>
   
+  <ul><strong>SURFACE REPRESENTATION</strong></ul>
+  <li> The surface representation imitates the cartoon painting style where artists
+roughly draw drafts with coarse brushes and have smooth surfaces similar to
+cartoon images.</li>
+<li> To smooth images and meanwhile keep the global semantic structure, a
+di erentiable guided ﬁlter is adopted for edge-preserving ﬁltering</li>
+<li> Edge-preserving ﬁltering is an image processing technique that smooths
+away noise or textures while retaining sharp edges. Examples are the
+median, bilateral, guided, and anisotropic di usion ﬁlters.</li>
+  
+  
+  <ul><strong> SURFACE LOSS FORMULA </strong></ul>
+  <li><strong>Lsurface (G, Ds) = log Ds (Fdgf (Ic, Ic)) + log (1 − Ds (Fdgf (G (Ip), G (Ip))))</strong></li>
+  
  ### Examples : 
  
  <img src=https://user-images.githubusercontent.com/75990647/192364958-662bf141-95f8-4836-ad9e-dacbd4d97338.jpg
