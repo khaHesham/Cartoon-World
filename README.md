@@ -229,6 +229,17 @@ returns extracted surface representation Fdgf (I, I) with
 textures and details removed.
    </ul>
   
+  <ul><li>Note: 
+   A discriminator Ds is introduced to judge whether model outputs and
+reference cartoon images have similar surfaces, and guide generator G to learn the
+information stored in the extracted surface representation.</li></ul>
+  
+  
+  
+  
+  
+  
+  
  ### Examples : 
  
  <img src=https://user-images.githubusercontent.com/75990647/192364958-662bf141-95f8-4836-ad9e-dacbd4d97338.jpg
