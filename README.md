@@ -163,9 +163,15 @@ trains the generator includes:
 ● generator loss, which penalizes the generator for failing to fool the
 discriminator<li></ul>
   
-  ul><ul><img src=https://user-images.githubusercontent.com/75990647/192746211-344ca2e4-1bc7-4999-a3cf-44fa4a0eef3b.png width="800px"></ul></ul>
+  <ul><ul><img src=https://user-images.githubusercontent.com/75990647/192746211-344ca2e4-1bc7-4999-a3cf-44fa4a0eef3b.png width="800px"></ul></ul>
   
   <ul><li><strong> USING THE DISCRIMINATOR TO TRAIN THE GENERATOR </strong></li></ul>
+  <ul><ul>To train a neural net, we alter the net's weights to reduce the error or loss of
+its output. In our GAN, however, the generator is not directly connected to the loss
+that we're trying to a ect. The generator feeds into the discriminator net, and the
+discriminator produces the output we're trying to a ect. The generator loss
+penalizes the generator for producing a sample that the discriminator network
+classiﬁes as fake.</ul></ul>
   
   
  ### Examples : 
