@@ -205,7 +205,7 @@ details in cartoon images.</li>
 <li> A Generative Adversarial Network (GAN) framework is used to learn the
 extracted representations and to cartoonize images.</li></ul>
   
-  <ul><strong>SURFACE REPRESENTATION</strong></ul>
+  ## SURFACE REPRESENTATION
   <li> The surface representation imitates the cartoon painting style where artists
 roughly draw drafts with coarse brushes and have smooth surfaces similar to
 cartoon images.</li>
@@ -217,7 +217,7 @@ median, bilateral, guided, and anisotropic di usion ﬁlters.</li>
   
   
   <ul><strong> SURFACE LOSS FORMULA </strong></ul>
-  <li><strong>Lsurface (G, Ds) = log Ds (Fdgf (Ic, Ic)) + log (1 − Ds (Fdgf (G (Ip), G (Ip))))</strong></li>
+ ### Lsurface (G, Ds) = log Ds (Fdgf (Ic, Ic)) + log (1 − Ds (Fdgf (G (Ip), G (Ip))))
   
  ### Examples : 
  
