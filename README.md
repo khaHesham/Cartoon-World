@@ -171,8 +171,26 @@ its output. In our GAN, however, the generator is not directly connected to the 
 that we're trying to a ect. The generator feeds into the discriminator net, and the
 discriminator produces the output we're trying to a ect. The generator loss
 penalizes the generator for producing a sample that the discriminator network
-classiﬁes as fake.</ul></ul>
+classiﬁes as fake. Backpropagation adjusts each weight in the right direction by calculating the
+weight's impact on the output — how the output would change if you changed the
+weight. But the impact of a generator weight depends on the impact of the
+discriminator weights it feeds into. So backpropagation starts at the output and
+ﬂows back through the discriminator into the generator.
+
+At the same time, we don't want the discriminator to change during
+generator training. Trying to hit a moving target would make a hard problem even
+harder for the generator.
+So we train the generator with the following procedure:
+1. Sample random noise.
+2. Produce generator output from sampled random noise.
+3. Get discriminator "Real" or "Fake" classiﬁcation for generator output.
+4. Calculate loss from discriminator classiﬁcation.
+5. Backpropagate through both the discriminator and generator to obtain
+gradients.
+6. Use gradients to change only the generator weights.</ul></ul>
   
+ # WHITE-BOX-CARTOONIZATION:
+  # ------------------------
   
  ### Examples : 
  
