@@ -131,9 +131,26 @@ feeding into the discriminator. During discriminator training, the generator doe
 train. Its weights remain constant while it produces examples for the discriminator
 to train on.
   
-  
   </ul>
- 
+   <ul><li><strong> TRAINING THE DISCRIMINATOR </strong></li></ul>
+   <ul>
+   <li>The discriminator connects to two loss functions. During discriminator
+training, the discriminator ignores the generator loss and just uses the
+discriminator loss. We use the generator loss during generator training, as
+described in the next section.
+
+During discriminator training:
+1. The discriminator classiﬁes both real data and fake data from the generator.
+2. The discriminator loss penalizes the discriminator for misclassifying a real
+instance as fake or a fake instance as real.
+3. The discriminator updates its weights through backpropagation from the
+discriminator loss through the discriminator network.</li>
+   </ul>
+   
+ <ul><li><strong>
+   THE GENERATOR</strong></li><ul>
+  
+  
  ### Examples : 
  
  <img src=https://user-images.githubusercontent.com/75990647/192364958-662bf141-95f8-4836-ad9e-dacbd4d97338.jpg
