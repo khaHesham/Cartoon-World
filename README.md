@@ -216,8 +216,18 @@ away noise or textures while retaining sharp edges. Examples are the
 median, bilateral, guided, and anisotropic di usion ﬁlters.</li>
   
   
-  <ul><strong> SURFACE LOSS FORMULA </strong></ul>
- ### Lsurface (G, Ds) = log Ds (Fdgf (Ic, Ic)) + log (1 − Ds (Fdgf (G (Ip), G (Ip))))
+ ### SURFACE LOSS FORMULA :
+ ### <li>Lsurface (G, Ds) = log Ds (Fdgf (Ic, Ic)) + log (1 − Ds (Fdgf (G (Ip), G (Ip))))</li>
+  Where,
+  <ul>
+G = Generator,
+Ds = Discriminator,
+Ic = Reference Cartoon Image,
+Ip = Input Photo,
+Fdgf = It takes an image I as input and itself as a guide map,
+returns extracted surface representation Fdgf (I, I) with
+textures and details removed.
+   </ul>
   
  ### Examples : 
  
