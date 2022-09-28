@@ -27,7 +27,7 @@ Spectral normalization is placed after every convolution layer (except the last 
 to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 
-### METHODOLOGY :
+###----------------------- METHODOLOGY ----------------------- :
  <ul><li> INTRODUCTION TO GENERATIVE ADVERSARIAL NETWORKS (GANs) </li></ul>
  <ul><ul>
  <li>Generative adversarial networks (GANs) are an exciting recent innovation in
@@ -111,7 +111,7 @@ output is connected directly to the discriminator input. Through backpropagation
 the discriminator's classiﬁcation provides a signal that the generator uses to
 update its weights.</b><li></ul>
  
-  <ul><li><strong> THE DISCRIMINATOR </strong></li><ul>
+  <ul><li><strong> ----------------------- THE DISCRIMINATOR -----------------------</strong></li><ul>
  <ul>
   <li>The discriminator in a GAN is simply a classiﬁer. It tries to distinguish real
 data from the data created by the generator. It could use any network architecture
@@ -148,7 +148,7 @@ discriminator loss through the discriminator network.</li>
    </ul>
    
  <ul><li><strong>
-   THE GENERATOR</strong></li><ul>
+   ----------------------- THE GENERATOR -----------------------</strong></li><ul>
   
   
  ### Examples : 
