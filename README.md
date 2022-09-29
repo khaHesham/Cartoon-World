@@ -275,7 +275,9 @@ with luminance and colour information removed.</li>
 <li> Frcs extract single-channel texture representation from colour images, which
 retains high-frequency textures and decreases the inﬂuence of colour and
 luminance.</li>
-  ### Frcs (Irgb) = (1 − α) (β1 ∗ Ir + β2 ∗ Ig + β3 ∗ Ib) + α ∗ Y
+  
+ ### Frcs (Irgb) = (1 − α) (β1 ∗ Ir + β2 ∗ Ig + β3 ∗ Ib) + α ∗ Y
+  
  Where,
 Irgb represents 3-channel RGB colour images, Ir, Ig and Ib represent
 three colour channels, and Y represents standard grayscale image
