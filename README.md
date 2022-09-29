@@ -245,7 +245,12 @@ images, and causes a hazing e ect on the ﬁnal results by analysing the
 processed dataset. We thus propose an adaptive colouring algorithm</li>
 <li>Adaptive coloring formula,</li>
 
-### <li> Si,j = (θ1 ∗ S + θ2 ∗ Š)^µ </li>
+### <ul> Si,j = (θ1 ∗ S + θ2 ∗ Š)^µ </ul>
+  <ul>
+ (θ1, θ2) = (0, 1) σ(S) < γ1,
+(0.5, 0.5) γ1 < σ(S) < γ2,
+(1, 0) γ2 < σ(S).
+  </ul>
   
   
   
