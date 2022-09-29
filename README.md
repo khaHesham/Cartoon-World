@@ -1,9 +1,23 @@
 # Cartoon World
- ## -A cartoonizer able to turn your images or videos to HD cartoons using the power of GANs and Vgg16 NN archticture
+ ## <li>A cartoonizer able to turn your images or videos to HD cartoons using the power of GANs and Vgg16 NN archticture</li>
 
+<img src=https://user-images.githubusercontent.com/75990647/193057899-1643e943-7f0b-4e98-82c5-9193d28d64f6.jpg width="1000px" height="500"/>
 
+## INTRODUCTION
+<ul><li><strong>Cartoons are a very popular art form that has been widely applied in diverse
+scenes, from publication in printed media to storytelling for children. Some cartoon
+artwork was created based on real-world scenes. However, manually re-creating
+real-life based scenes can be very laborious and requires reﬁned skills.
 
-### -FLOWCHART OF WHITE-BOX-CARTOONIZATION MODEL :
+The evolution in the ﬁeld of Machine Learning has expanded the possibilities
+of creating visual arts. Some famous products have been created by turning
+real-world photography into usable cartoon scene materials, where the process is
+called image cartoonization.
+
+White box cartoonization is a method that reconstructs high-quality real-life
+pictures into exceptional cartoon images using the GAN framework.</strong></li></ul>
+ 
+### <li> FLOWCHART OF WHITE-BOX-CARTOONIZATION MODEL : </li>
 
 
 <img align= center height=450px src=https://user-images.githubusercontent.com/75990647/192298994-d80bb374-568c-4906-a10b-75958a3f9c1f.png>
@@ -27,7 +41,7 @@ Spectral normalization is placed after every convolution layer (except the last 
 to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 
-### ----------------------- METHODOLOGY ----------------------- :
+### ------------------------------------ METHODOLOGY ---------------------------------------- 
  <ul><li> INTRODUCTION TO GENERATIVE ADVERSARIAL NETWORKS (GANs) </li></ul>
  <ul><ul>
  <li>Generative adversarial networks (GANs) are an exciting recent innovation in
@@ -111,7 +125,7 @@ output is connected directly to the discriminator input. Through backpropagation
 the discriminator's classiﬁcation provides a signal that the generator uses to
 update its weights.</b><li></ul>
  
-  <ul><li><strong> ----------------------- THE DISCRIMINATOR -----------------------</strong></li><ul>
+  <ul><li><strong> ------------------------------------- THE DISCRIMINATOR ---------------------------------</strong></li><ul>
  <ul>
   <li>The discriminator in a GAN is simply a classiﬁer. It tries to distinguish real
 data from the data created by the generator. It could use any network architecture
@@ -234,11 +248,72 @@ textures and details removed.
 reference cartoon images have similar surfaces, and guide generator G to learn the
 information stored in the extracted surface representation.</li></ul>
   
+  ### STRUCTURE REPRESENTATION
+  <li>We at ﬁrst used the felzenszwalb algorithm to segment images into
+separate regions. As superpixel algorithms only consider the similarity of
+pixels and ignore semantic information, we further introduce selective search
+to merge segmented regions and extract a sparse segmentation map.</li>
+<li>Standard superpixel algorithms colour each segmented region with an
+average of the pixel value. We found this lowers global contrast, darkens
+images, and causes a hazing e ect on the ﬁnal results by analysing the
+processed dataset. We thus propose an adaptive colouring algorithm</li>
+<li>Adaptive coloring formula,</li>
+
+### <ul> Si,j = (θ1 ∗ S + θ2 ∗ Š)^µ </ul>
+  <ul>
+    <li>(θ1, θ2) = (0, 1) σ(S) < γ1</li>
+    <li>(0.5, 0.5) γ1 < σ(S) < γ2</li>
+    <li>(1, 0) γ2 < σ(S).</li>
+  </ul>
+  
+  Where we ﬁnd γ1 = 20, γ2 = 40 and µ = 1.2 generate good results.
+  
+  ### STRUCTURE LOSS FORMULA: 
+  ### Lstructure= || VGGn (G (Ip)) − VGGn (Fst (G (Ip))) ||
+  
+ <li> Where,
+G = Generator</li>
+<li>Ip = Input Photo</li>
+<li>Fst = Structure Representation Extraction.</li>
+  
+ Note: We use high-level features extracted by a pre-trained VGG16 network to
+enforce spatial constraints between our results and extracted structure
+representation.
+  
+  ### TEXTURE REPRESENTATION :
+  <li>The high-frequency features of cartoon images are key learning objectives,
+but luminance and colour information make it easy to distinguish between
+cartoon images and real-world photos. We thus propose a random colour
+shift algorithm. The random colour shift can generate random intensity maps
+with luminance and colour information removed.</li>
+<li> Frcs extract single-channel texture representation from colour images, which
+retains high-frequency textures and decreases the inﬂuence of colour and
+luminance.</li>
+  
+ ### Frcs (Irgb) = (1 − α) (β1 ∗ Ir + β2 ∗ Ig + β3 ∗ Ib) + α ∗ Y
+  
+ Where,
+Irgb represents 3-channel RGB colour images, Ir, Ig and Ib represent
+three colour channels, and Y represents standard grayscale image
+converted from RGB colour image.
+  <li>Note: We set α = 0.8, β1, β2 and β3 ∼ U(−1, 1). </li>
+  
+  ### TEXTURAL REPRESENTATION FORMULA : 
+  ### Ltexture (G, Dt) = log Dt (Frcs (Ic)) + log (1 − Dt (Frcs (G (Ip))))
+  
+  <ul><li>Where,
+
+G = Generator,
+Dt = Discriminator,
+Ic = Reference Cartoon Image,
+Ip = Input Photo,
+Frcs = Extract single-channel texture representation from colour
+images, which retains high-frequency textures and
+decreases the inﬂuence of colour and luminance.</li></ul>
   
   
-  
-  
-  
+ # Demo 
+
   
  ### Examples : 
  
@@ -289,5 +364,8 @@ width="400px"/>
  width="400px"/>
 <img src=https://user-images.githubusercontent.com/75990647/192366682-c45479c3-d0e0-4f31-876e-4d7b77fcf799.jpg
  width="400px"/>
+ 
+ <video src=https://user-images.githubusercontent.com/75990647/193100319-4b85892e-a298-46ec-92f0-f64b2681e32b.mp4 width="400px">
+
 
  
