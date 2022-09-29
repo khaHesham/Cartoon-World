@@ -298,7 +298,7 @@ images, which retains high-frequency textures and
 decreases the inﬂuence of colour and luminance.</li></ul>
   
   
- #Demo 
+ # Demo 
 
   
  ### Examples : 
