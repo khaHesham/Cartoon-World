@@ -1,9 +1,23 @@
 # Cartoon World
- ## -A cartoonizer able to turn your images or videos to HD cartoons using the power of GANs and Vgg16 NN archticture
+ ## <li>A cartoonizer able to turn your images or videos to HD cartoons using the power of GANs and Vgg16 NN archticture</li>
 
 <img src=https://user-images.githubusercontent.com/75990647/193057899-1643e943-7f0b-4e98-82c5-9193d28d64f6.jpg width="1000px" height="500"/>
+
+## INTRODUCTION
+<ul><li><strong>Cartoons are a very popular art form that has been widely applied in diverse
+scenes, from publication in printed media to storytelling for children. Some cartoon
+artwork was created based on real-world scenes. However, manually re-creating
+real-life based scenes can be very laborious and requires reﬁned skills.
+
+The evolution in the ﬁeld of Machine Learning has expanded the possibilities
+of creating visual arts. Some famous products have been created by turning
+real-world photography into usable cartoon scene materials, where the process is
+called image cartoonization.
+
+White box cartoonization is a method that reconstructs high-quality real-life
+pictures into exceptional cartoon images using the GAN framework.</strong></li></ul>
  
-### -FLOWCHART OF WHITE-BOX-CARTOONIZATION MODEL :
+### <li> FLOWCHART OF WHITE-BOX-CARTOONIZATION MODEL : </li>
 
 
 <img align= center height=450px src=https://user-images.githubusercontent.com/75990647/192298994-d80bb374-568c-4906-a10b-75958a3f9c1f.png>
@@ -27,7 +41,7 @@ Spectral normalization is placed after every convolution layer (except the last 
 to enforce Lipschitz constrain on the network and stabilize training.</li>
 
 
-### ----------------------- METHODOLOGY ----------------------- :
+### ------------------------------------ METHODOLOGY ---------------------------------------- 
  <ul><li> INTRODUCTION TO GENERATIVE ADVERSARIAL NETWORKS (GANs) </li></ul>
  <ul><ul>
  <li>Generative adversarial networks (GANs) are an exciting recent innovation in
@@ -111,7 +125,7 @@ output is connected directly to the discriminator input. Through backpropagation
 the discriminator's classiﬁcation provides a signal that the generator uses to
 update its weights.</b><li></ul>
  
-  <ul><li><strong> ----------------------- THE DISCRIMINATOR -----------------------</strong></li><ul>
+  <ul><li><strong> ------------------------------------- THE DISCRIMINATOR ---------------------------------</strong></li><ul>
  <ul>
   <li>The discriminator in a GAN is simply a classiﬁer. It tries to distinguish real
 data from the data created by the generator. It could use any network architecture
