@@ -247,13 +247,39 @@ processed dataset. We thus propose an adaptive colouring algorithm</li>
 
 ### <ul> Si,j = (θ1 ∗ S + θ2 ∗ Š)^µ </ul>
   <ul>
- (θ1, θ2) = (0, 1) σ(S) < γ1,
-(0.5, 0.5) γ1 < σ(S) < γ2,
-(1, 0) γ2 < σ(S).
+    <li>(θ1, θ2) = (0, 1) σ(S) < γ1</li>
+    <li>(0.5, 0.5) γ1 < σ(S) < γ2</li>
+    <li>(1, 0) γ2 < σ(S).</li>
   </ul>
   
+  Where we ﬁnd γ1 = 20, γ2 = 40 and µ = 1.2 generate good results.
   
+  ### STRUCTURE LOSS FORMULA: 
+  ### Lstructure= || VGGn (G (Ip)) − VGGn (Fst (G (Ip))) ||
   
+ <li> Where,
+G = Generator</li>
+<li>Ip = Input Photo</li>
+<li>Fst = Structure Representation Extraction.</li>
+  
+ Note: We use high-level features extracted by a pre-trained VGG16 network to
+enforce spatial constraints between our results and extracted structure
+representation.
+  
+  ### TEXTURE REPRESENTATION :
+  <li>The high-frequency features of cartoon images are key learning objectives,
+but luminance and colour information make it easy to distinguish between
+cartoon images and real-world photos. We thus propose a random colour
+shift algorithm. The random colour shift can generate random intensity maps
+with luminance and colour information removed.</li>
+<li> Frcs extract single-channel texture representation from colour images, which
+retains high-frequency textures and decreases the inﬂuence of colour and
+luminance.</li>
+  ### Frcs (Irgb) = (1 − α) (β1 ∗ Ir + β2 ∗ Ig + β3 ∗ Ib) + α ∗ Y
+ Where,
+Irgb represents 3-channel RGB colour images, Ir, Ig and Ib represent
+three colour channels, and Y represents standard grayscale image
+converted from RGB colour image.
   
  ### Examples : 
  
