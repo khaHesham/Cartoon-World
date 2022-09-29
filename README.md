@@ -297,6 +297,10 @@ Frcs = Extract single-channel texture representation from colour
 images, which retains high-frequency textures and
 decreases the inﬂuence of colour and luminance.</li></ul>
   
+  
+ #Demo 
+
+  
  ### Examples : 
  
  <img src=https://user-images.githubusercontent.com/75990647/192364958-662bf141-95f8-4836-ad9e-dacbd4d97338.jpg
