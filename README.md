@@ -310,6 +310,8 @@ Ip = Input Photo,
 Frcs = Extract single-channel texture representation from colour
 images, which retains high-frequency textures and
 decreases the inﬂuence of colour and luminance.</li></ul>
+
+ ## <a href="https://systemerrorwang.github.io/White-box-Cartoonization/"> @Reference</a>
   
   
  # Demo 
