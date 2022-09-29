@@ -282,6 +282,20 @@ luminance.</li>
 Irgb represents 3-channel RGB colour images, Ir, Ig and Ib represent
 three colour channels, and Y represents standard grayscale image
 converted from RGB colour image.
+  <li>Note: We set α = 0.8, β1, β2 and β3 ∼ U(−1, 1). </li>
+  
+  ### TEXTURAL REPRESENTATION FORMULA : 
+  ### Ltexture (G, Dt) = log Dt (Frcs (Ic)) + log (1 − Dt (Frcs (G (Ip))))
+  
+  <ul><li>Where,
+
+G = Generator,
+Dt = Discriminator,
+Ic = Reference Cartoon Image,
+Ip = Input Photo,
+Frcs = Extract single-channel texture representation from colour
+images, which retains high-frequency textures and
+decreases the inﬂuence of colour and luminance.</li></ul>
   
  ### Examples : 
  
