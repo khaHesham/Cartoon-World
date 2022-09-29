@@ -1,8 +1,8 @@
 # Cartoon World
  ## -A cartoonizer able to turn your images or videos to HD cartoons using the power of GANs and Vgg16 NN archticture
 
-
-
+<img src=https://user-images.githubusercontent.com/75990647/193057899-1643e943-7f0b-4e98-82c5-9193d28d64f6.jpg width="1000px" height="500"/>
+ 
 ### -FLOWCHART OF WHITE-BOX-CARTOONIZATION MODEL :
 
 
@@ -234,8 +234,18 @@ textures and details removed.
 reference cartoon images have similar surfaces, and guide generator G to learn the
 information stored in the extracted surface representation.</li></ul>
   
-  
-  
+  ### STRUCTURE REPRESENTATION
+  <li>We at ﬁrst used the felzenszwalb algorithm to segment images into
+separate regions. As superpixel algorithms only consider the similarity of
+pixels and ignore semantic information, we further introduce selective search
+to merge segmented regions and extract a sparse segmentation map.</li>
+<li>Standard superpixel algorithms colour each segmented region with an
+average of the pixel value. We found this lowers global contrast, darkens
+images, and causes a hazing e ect on the ﬁnal results by analysing the
+processed dataset. We thus propose an adaptive colouring algorithm</li>
+<li>Adaptive coloring formula,</li>
+
+### <li> Si,j = (θ1 ∗ S + θ2 ∗ Š)^µ </li>
   
   
   
