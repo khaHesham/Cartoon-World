@@ -1,5 +1,5 @@
 # Cartoon World
- ## <li>A cartoonizer able to turn your images or videos to HD cartoons using the power of GANs and Vgg16 NN archticture</li>
+ ## <li>A cartoonizer able to turn your images or videos to  high-quality real-life cartoons using the power of GANs and Vgg16 NN archticture</li>
 
 <img src=https://user-images.githubusercontent.com/75990647/193057899-1643e943-7f0b-4e98-82c5-9193d28d64f6.jpg width="1000px" height="500"/>
 
